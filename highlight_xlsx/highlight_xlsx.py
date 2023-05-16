@@ -9,6 +9,9 @@ def highlight_cells(file_name, text):
     # Highlight pattern
     highlight = PatternFill(start_color="FFFF00", end_color="FFFF00", fill_type="solid")
 
+    # Counter for the number of highlighted cells
+    count = 0
+
     # Iterate over all sheets and rows/columns
     for sheet in workbook.sheetnames:
         for row in workbook[sheet].iter_rows():
@@ -16,9 +19,13 @@ def highlight_cells(file_name, text):
                 # If the cell contains the text, apply the highlight
                 if text in str(cell.value):
                     cell.fill = highlight
+                    count += 1
 
     # Save the workbook
     workbook.save(file_name)
+
+    # Print the number of highlighted cells
+    print(f"Number of highlighted cells: {count}")
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
