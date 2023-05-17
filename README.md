@@ -1,2 +1,2 @@
-# bots
-Bot tools
+# workflows
+collection of workflow tools
