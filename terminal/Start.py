@@ -11,7 +11,7 @@ firefox_websites = [
 # Define the websites to open in Brave
 brave_websites = [
     "https://chat.openai.com/",
-    "https://chat.openai.com/",
+    "https://proton.me/mail",
     "https://github.com/",
 ]
 
