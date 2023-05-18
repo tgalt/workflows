@@ -14,6 +14,8 @@ brave_websites = [
     "https://chat.openai.com/",
     "https://proton.me/mail",
     "https://github.com/",
+    "https://www.evernote.com/client/web?login=true#?hm=true&",
+
 ]
 
 # Define the paths to the browsers
