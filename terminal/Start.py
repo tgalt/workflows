@@ -1,4 +1,5 @@
 import webbrowser
+import subprocess
 
 # Define the websites to open in Firefox
 firefox_websites = [
@@ -27,3 +28,7 @@ for website in firefox_websites:
 # Open each website in Brave
 for website in brave_websites:
     webbrowser.get(brave_path).open_new_tab(website)
+
+# Open a terminal and run neofetch
+terminal_command = ["gnome-terminal", "--", "neofetch"]
+subprocess.Popen(terminal_command)
