@@ -5,10 +5,13 @@ import sys
 file_name = sys.argv[1]
 
 # Load the data from the CSV file
-df = pd.read_csv(file_name, sep='\t')
+df = pd.read_csv(file_name, sep=',')
 
 # Modify the Amount column
 df['Amount'] = df.apply(lambda row: -row['Amount'] if row['CR/DR'] == 'DR' else row['Amount'], axis=1)
 
 # Write the data back to the CSV file
-df.to_csv(file_name, sep='\t', index=False)
+df.to_csv(file_name, sep=',', index=False)
+
+# Print out the column names
+print(df.columns)
