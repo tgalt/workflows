@@ -1,3 +1,6 @@
+# Instead of using OCR to extract text, we are using a docx created from a pdf in google drive
+# OCR was having too many errors and the docx is much more accurate
+
 import sys
 import os
 import openai
