@@ -4,7 +4,12 @@ collection of workflow tools
 
 ## What to do next?
 ##### iPhone app for Bible or PantryChef
+Could generate monthly income but I'm not sure how sticky the concept is.
 ##### Build websites for people
+Lots of labor.  Probably not much money.
 ##### Create sales bot for dealers
+Lot of time to build.  May or may not make money.
 ##### Full car buying website 
+Would have to be really good.  May be more than I can do.
 ##### Integrate AI into insurance
+Might not make me more money.
