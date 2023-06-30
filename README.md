@@ -13,3 +13,8 @@ Lot of time to build.  May or may not make money.
 Would have to be really good.  May be more than I can do.
 ##### Integrate AI into insurance
 Might not make me more money.
+##### ToDo list + AI
+
+##### Being pulled to insurance recently.  We will see.
+
+#####  Need to finish AI class.
