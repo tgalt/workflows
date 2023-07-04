@@ -18,3 +18,5 @@ Might not make me more money.
 ##### Being pulled to insurance recently.  We will see.
 
 #####  Need to finish AI class.
+
+##### Build AIfit 
