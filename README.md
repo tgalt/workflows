@@ -20,3 +20,4 @@ Might not make me more money.
 #####  Need to finish AI class.
 
 ##### Build AIfit 
+A website that will build a nutrition plan, design meals and a workout plan to hit a person's individual goals.
