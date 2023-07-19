@@ -21,3 +21,8 @@ Might not make me more money.
 
 ##### Build AIfit 
 A website that will build a nutrition plan, design meals and a workout plan to hit a person's individual goals.
+
+##### AIfit structure
+Landing / marketing
+Login / register
+Current info / goals / diet restrictions / preferences / workout
