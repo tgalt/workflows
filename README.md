@@ -26,3 +26,4 @@ A website that will build a nutrition plan, design meals and a workout plan to h
 Landing / marketing
 Login / register
 Current info / goals / diet restrictions / preferences / workout
+Output---
