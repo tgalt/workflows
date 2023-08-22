@@ -27,3 +27,5 @@ Landing / marketing
 Login / register
 Current info / goals / diet restrictions / preferences / workout
 Output---
+
+NEXT PROJECT NEEDS TO MAKE MONEY...
