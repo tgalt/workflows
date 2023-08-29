@@ -29,3 +29,5 @@ Current info / goals / diet restrictions / preferences / workout
 Output---
 
 NEXT PROJECT NEEDS TO MAKE MONEY...
+most likly needs to be an iphone app
+annual subscription or one time payment no monthly subscription
