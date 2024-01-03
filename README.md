@@ -17,6 +17,9 @@ Might not make me more money.
 
 ##### Being pulled to insurance recently.  We will see.
 
+
+##### Odoo app - but Odoo sucks!
+
 #####  Need to finish AI class.
 
 ##### Build AIfit 
