@@ -1,0 +1,1 @@
+Create an app that creates meal and workout plans using openai api.
