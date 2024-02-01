@@ -1,0 +1,21 @@
+PythonDictionary
+my_dict = {
+  "name": "John Doe",
+  "age": 34,
+  "address": {
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL"
+  }
+}
+
+JSON
+{
+  "name": "John Doe",
+  "age": 34,
+  "address": {
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL"
+  }
+}
