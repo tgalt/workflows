@@ -1,1 +1,4 @@
 create an app that gives parents advice on what to do in various situations based on biblical parenting.
+
+how do you create enough uniqueness to make the app sticky and viral?
+
