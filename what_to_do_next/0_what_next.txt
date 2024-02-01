@@ -22,3 +22,7 @@ Program for someone else?
 Finance job
 
 Sales job
+
+APP PLAN
+use FlutterFlow
+figure out backend

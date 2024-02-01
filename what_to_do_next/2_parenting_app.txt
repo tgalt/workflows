@@ -1,4 +1,30 @@
 create an app that gives parents advice on what to do in various situations based on biblical parenting.
 
-how do you create enough uniqueness to make the app sticky and viral?
+Prompts for design:
+You are a software project manager. Iterate through these specs/requirements and write a spec/proposal.  Ask questions if you have them.
 
+SPEC/REQUIREMENTS:
+Use FlutterFlow to write an Android, iOS and Web app that will use the OpenAI API.  The app will provide situation specific advice on how to parent their children based on the Bible.
+
+
+Profile page
+  Kid1
+  Age
+  Sex
+  Personallity
+
+  Ability to store up to 10 kids.
+
+Input page
+  Which child - 1, 2, all etc.
+  What is the circumstance.
+
+API
+  Send prompt to OpenAI.
+
+Output page
+  Here are some applicable Bible verses...
+  Here is a sample of a way to have this conversation with your child...  (this output should be age appropriate and as specific to the particular child as possible)
+
+Log
+  Store all quieried info and responses by user id.  Need login to view this page.

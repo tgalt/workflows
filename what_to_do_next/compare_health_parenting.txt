@@ -1,0 +1,14 @@
+I'm trying to decide which one of these apps I should build.  
+  Both of them would have the same basic specs... built with FlutterFlow, pull data from OpenAI API, be deployed on Android, iOS and web.  
+  They would be a subscription model with both of them being approximately the same cost to develop and the same cost per user on the app stores.
+Here are the two ideas.
+  An AI powered health app to design meal plans and workout plans.
+  An AI powered app to provide biblicly based advice to parents on how to handle their current circumstances.
+When taking into account the potential markets and how popular these types of apps could be, which app would potentially generate more revenue?
+
+Each app has its unique advantages and challenges. 
+  The health app caters to a broader market but faces intense competition, 
+  while the parenting advice app targets a niche market with potentially less competition but a smaller user base. 
+  Consider conducting more detailed market research and analysis to make an informed decision based on potential market size, 
+  user acquisition costs, and long-term viability.
+  
