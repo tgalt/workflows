@@ -25,4 +25,5 @@ Sales job
 
 APP PLAN
 use FlutterFlow
-figure out backend
+figure out backend - Firebase
+how to structure Firebase
