@@ -3,7 +3,7 @@ What should I do next?
 # Potential Project List
 BibleGuideBook - pretty much redo bible-for-life in Flutterflow
 Health App - ai driven meal planning and workout program
-Bookeeping
+Bookeeping by AI
 
 1 Need to make money right away.
 2 Want it to be enjoyable for the long run.
