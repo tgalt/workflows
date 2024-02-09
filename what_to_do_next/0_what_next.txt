@@ -3,7 +3,7 @@ What should I do next?
 # Potential Project List
 BibleGuideBook - pretty much redo bible-for-life in Flutterflow
 Health App - ai driven meal planning and workout program
-Bookeeping by AI - bookeepai.com
+Bookeeping by AI - bookeepai.com - use Plaid API and possibly HuggingFace
 aifortrump.com
 carshopapp.com
 iais.io
