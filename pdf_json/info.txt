@@ -1,0 +1,47 @@
+To accomplish this task, we'll use two libraries: `PyMuPDF` (also known as `fitz`) for reading PDF content 
+and `json` for handling JSON data in Python. First, ensure you have the necessary libraries installed:
+
+```bash
+pip install pymupdf
+```
+
+The following Python program reads text from a PDF file, extracts the text from each page, 
+and then stores that text in a JSON file with the page number as the key. 
+Note that this example assumes the PDF contains only textual data. 
+If the PDF contains images or other non-text elements you wish to extract, the process becomes more complicated.
+
+```python
+import fitz  # PyMuPDF
+import json
+
+# Function to read PDF and store its text into a JSON file
+def pdf_to_json(pdf_path, json_path):
+    # Open the provided PDF file
+    pdf_document = fitz.open(pdf_path)
+    pdf_data = {}
+
+    # Iterate through each page of the PDF
+    for page_num in range(len(pdf_document)):
+        page = pdf_document.load_page(page_num)
+        # Extract text from the current page
+        text = page.get_text()
+        # Store the extracted text using the page number as key
+        pdf_data[f"page_{page_num + 1}"] = text
+
+    # Close the PDF after reading
+    pdf_document.close()
+
+    # Save our extracted data to a JSON file
+    with open(json_path, "w", encoding="utf-8") as json_file:
+        json.dump(pdf_data, json_file, ensure_ascii=False, indent=4)
+
+    print(f"PDF text has been successfully extracted to {json_path}")
+
+# Replace 'your_pdf_path.pdf' with the path to the PDF file you want to convert
+# and 'output.json' with the desired output JSON file name.
+pdf_to_json("your_pdf_path.pdf", "output.json")
+```
+
+To use this, replace `"your_pdf_path.pdf"` with the actual path to your PDF file and `"output.json"` with your desired output JSON file name.
+
+This script does a basic job of extracting textual content from a PDF and saving it into a JSON format, where each key corresponds to a page in the PDF, and the value is the text content of that page. Keep in mind that the effectiveness of text extraction can depend on the nature of the PDF (e.g., whether it's text-based or scanned images). For more advanced use cases, such as extracting images or dealing with OCR requirements, additional libraries and more intricate handling would be necessary.
